@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block title %}Inicio{% endblock %}
+{% block content %}
+<h2>Bienvenido a la aplicación Flask</h2>
+<p>Esta es la página de inicio.</p>
+{% endblock %}

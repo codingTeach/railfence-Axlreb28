@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Menu{% endblock %}
+{% block content %}
+<h2>Menu de Navegación</h2>
+<ul>
+    <li><a href="{{ url_for('datos') }}">Datos</a></li>
+    <li><a href="{{ url_for('metas') }}">Metas</a></li>
+    <li><a href="{{ url_for('progreso') }}">Progreso</a></li>
+    <li><a href="{{ url_for('graficas') }}">Gráficas</a></li>
+</ul>
+{% endblock %}
